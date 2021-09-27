@@ -1,0 +1,30 @@
+# # EJERCICIO 4.8.3.1
+# class Convertidor:
+#     def __init__(self,
+#                  pulgadas,
+#                  pies,
+#                  yardas):
+#
+#         self.pulgadas = pulgadas
+#         self.pies = pies
+#         self.yardas = yardas
+#
+#     def calc_pulgadas(self):
+#         return (self / 2.54)
+#
+#     def calc_pies(self):
+#         return (self / 2.54) / 12
+#
+#     def calc_yardas(self):
+#         return ((self / 2.54) / 12) / 3
+#
+#     def ejecuta_todo(self):
+#         print(f'La conversión en Pulgadas das es: {format(Convertidor.calc_pulgadas(self), ".2f")}')
+#         print(f'La conversión en Pies das es....: {format(Convertidor.calc_pies(self), ".2f")}')
+#         print(f'La conversión en Yardas es......: {format(Convertidor.calc_yardas(self), ".2f")}')
+#
+# def digitar_valor():
+#     return (float(input(f'Digite el valor a convertir:')))
+#
+#
+# Convertidor.ejecuta_todo(digitar_valor())
