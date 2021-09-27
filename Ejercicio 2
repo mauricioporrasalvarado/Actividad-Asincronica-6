@@ -1,0 +1,37 @@
+# # EJERCICIO 4.8.3.2
+# class Cambio:
+#     def __init__(self,
+#                  moneda500,
+#                  moneda100,
+#                  moneda50,
+#                  moneda25
+#                  ):
+#         self.moneda500 = moneda500
+#         self.moneda100 = moneda100
+#         self.moneda50 = moneda50
+#         self.moneda25 = moneda25
+#
+#     def calc_monedas(self):
+#         mnd500 = int(self / 500)
+#         rsd500 = self % 500
+#         mnd100 = int(rsd500 / 100)
+#         rsd100 = rsd500 % 100
+#         mnd50 = int(rsd100 / 50)
+#         rsd50 = rsd100 % 50
+#         mnd25 = int(rsd50 / 25)
+#         rsd25 = rsd50 % 25
+#         print(f'Monedas de 500....: {mnd500}')
+#         print(f'Monedas de 100....: {mnd100}')
+#         print(f'Monedas de 50.....: {mnd50}')
+#         print(f'Monedas de 25.....: {mnd25}')
+#         print(f'Denominación menor: {rsd25}')
+#
+# def digitar_valor():
+#     Valor = int(input('Ingrese el valor del artículo-->'))
+#     Pago = int(input('Ingrese el monto del pago------>'))
+#     Vuelto = Pago - Valor
+#     print(f'Total del Cambio: {Vuelto}')
+#     return Vuelto
+#
+#
+# Cambio.calc_monedas(digitar_valor())
