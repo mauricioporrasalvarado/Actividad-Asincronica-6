@@ -1,0 +1,36 @@
+# # EJERCICIO 4.8.3.6
+# class FuncMatem:
+#     def __init__(self,
+#                  valor1,
+#                  valor2,
+#                  valor3,
+#                  valor4):
+#         self.valor1 = valor1
+#         self.valor2 = valor2
+#         self.valor3 = valor3
+#         self.valor4 = valor4
+#
+#     def Sumatoria(self):
+#         valor1 = int(input(f'Digite un valor1 a sumar--> '))
+#         valor2 = int(input(f'Digite un valor2 a sumar--> '))
+#         valor3 = int(input(f'Digite un valor3 a sumar--> '))
+#         return valor1 + valor2 + valor3
+#
+#     def Promedio(self):
+#         valor1 = (int(input(f'Digite el valor1 para promedio--> ')))
+#         valor2 = (int(input(f'Digite el valor2 para promedio--> ')))
+#         valor3 = (int(input(f'Digite el valor3 para promedio--> ')))
+#         return (valor1 + valor2 + valor3) / 3
+#
+#     def ParImpar(self):
+#         valor1 = (int(input(f'Digite el valor a consultar (Par/Impar)--> ')))
+#         valor2 = valor1 % 2
+#         if valor2 == 0:
+#             return 'Es par'
+#         else:
+#             return 'Es Impar'
+#
+#
+# print(f'La sumatoria de los valores es-->  {format(FuncMatem.Sumatoria(self=0), ".2f")}')
+# print(f'El promerio de los valores es-->  {format(FuncMatem.Promedio(self=0), ".2f")}')
+# print(f'El número indicado-->  {(FuncMatem.ParImpar(self=0))}')
