@@ -1,0 +1,46 @@
+# # EJERCICIO 4.8.3.4
+# class minicalculadora:
+#     def __init__(self,
+#                  a=0,
+#                  b=0):
+#         self.a = a
+#         self.b = b
+#
+#     def asigna_valor_a(self):
+#         return int(input('Ingrese el valor de "a"--------------->'))
+#
+#     def asigna_valor_b(self):
+#         return int(input('Ingrese el valor de "b"--------------->'))
+#
+#     def restar(self, a, b):
+#         return a - b
+#
+#     def sumar(self, a, b):
+#         return a + b
+#
+#     def multiplicar(self, a, b):
+#         return a * b
+#
+#     def division_entera(self, a, b):
+#         return a // b
+#
+#     def dividion_residuo(self, a, b):
+#         return a % b
+#
+#     def division_normal(self, a, b):
+#         return a / b
+#
+#
+# def ejecuta_todo():
+#     a = minicalculadora.asigna_valor_a(self=0)
+#     b = minicalculadora.asigna_valor_b(self=0)
+#     print(f'El resultado de la suma es............: {minicalculadora.sumar(self=0, a=a, b=b)}')
+#     print(f'El resultado de la resta es...........: {minicalculadora.restar(self= 0, a=a, b=b)}')
+#     print(f'El resultado de la multiplicación es..: {minicalculadora.multiplicar(self=0, a=a, b=b)}')
+#     try:
+#         print(f'El resultado de la división entera es.: {minicalculadora.division_entera(self=0, a=a, b=b)}')
+#         print(f'El resultado de la división residuo es: {minicalculadora.dividion_residuo(self=0, a=a, b=b)}')
+#         print(f'El resultado de la división normal es.: {minicalculadora.division_normal(self=0, a=a, b=b)}')
+#     except:
+#         print("ATENCION: Divisiones no se ejecutan debido a que B es cero")
+# ejecuta_todo()
